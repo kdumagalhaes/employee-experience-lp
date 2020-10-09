@@ -3,6 +3,7 @@
     --color2: #572180;
     --color3: #41BAC1;
     --color4: #00758D;
+    --color5: #f2f0f0;
     --rounded-border: 10px;
 }
 
@@ -16,5 +17,8 @@
 
 body, button, input {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
 }
