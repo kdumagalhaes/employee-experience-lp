@@ -16,6 +16,13 @@
     outline: none;
 }
 
+body {
+    background-image: url('/assets/footer-strip-bg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1100px;
+}
+
 body, button, input {
     font-family: 'Lato', sans-serif;
 }

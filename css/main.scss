@@ -205,7 +205,7 @@
 }
 
 .bg__wrapper--agenda {
-    background-image: url('/assets/bg_agenda.svg');
+    background-image: url("/assets/bg_agenda.svg");
     background-repeat: no-repeat;
     background-position-x: -529px;
 }
@@ -217,8 +217,8 @@
 }
 
 .agenda__main-speaker {
-    display: flex;   
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-between;
 }
 
 .agenda__main-speaker--logo {
@@ -279,7 +279,6 @@
 
 .agenda__card--participacao,
 .speakers__card--participacao {
-
     p {
         margin-bottom: 15px;
     }
@@ -319,9 +318,7 @@
             margin-bottom: 0;
         }
     }
-
 }
-
 
 .companies {
     display: flex;
@@ -370,7 +367,7 @@
 .articles__links {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 70%;
     a {
         text-transform: uppercase;
         text-decoration: none;
@@ -383,7 +380,7 @@
 .articles__links--purple {
     border-radius: var(--rounded-border);
     border-left: 8px solid var(--color2);
-    background-color:#fff;
+    background-color: #fff;
     transition: border-left 0.5s;
     color: var(--color2);
 
@@ -407,11 +404,53 @@
 .articles__links--blue {
     border-radius: var(--rounded-border);
     border-left: 8px solid var(--color1);
-    background-color:#fff;
+    background-color: #fff;
     transition: border-left 0.5s;
     color: var(--color1);
 
     &:hover {
         border-left: none;
+    }
+}
+
+.social {
+    width: 100%;
+    max-width: 1100px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.social__div {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid var(--color6);
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    ul {
+        li {
+            display: inline;
+            margin-right: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &:nth-child(2) {
+        border-right: none;
+    }
+
+    &:nth-child(3) {
+        border-left: 1px solid var(--color6);
+        border-right: none;
     }
 }
