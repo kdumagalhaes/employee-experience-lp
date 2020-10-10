@@ -4,6 +4,7 @@
     --color3: #41BAC1;
     --color4: #00758D;
     --color5: #f2f0f0;
+    --color6: #342039;
     --rounded-border: 10px;
 }
 
@@ -21,4 +22,11 @@ body, button, input {
 
 button {
     cursor: pointer;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
 }

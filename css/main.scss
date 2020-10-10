@@ -117,8 +117,9 @@
         border-radius: 50px;
         border: none;
         padding: 10px 15px;
-        width: 50%;
         margin: 5px;
+        width: 100%;
+        max-width: 320px;
 
         &::placeholder {
             color: var(--color3);
@@ -135,8 +136,7 @@
     
     fieldset {
         display: flex;
-        border: none;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     button {
@@ -146,7 +146,18 @@
         color: #fff;
         text-transform: uppercase;
         font-weight: 700;
-        padding: 10px 30px;
+        font-size: 1rem;
+        padding: 0 30px;
+        height: 40px;
+        margin-top: auto;
+        justify-self: center;
+        align-self: stretch;
+        margin-right: 100px;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: var(--color6);
+        }
     }
 }
 

@@ -140,8 +140,9 @@
   border-radius: 50px;
   border: none;
   padding: 10px 15px;
-  width: 50%;
   margin: 5px;
+  width: 100%;
+  max-width: 320px;
 }
 
 .about__form input::-webkit-input-placeholder {
@@ -172,10 +173,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: none;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .about__form button {
@@ -185,7 +184,22 @@
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 10px 30px;
+  font-size: 1rem;
+  padding: 0 30px;
+  height: 40px;
+  margin-top: auto;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  margin-right: 100px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.about__form button:hover {
+  background-color: var(--color6);
 }
 
 .about__form--code {
