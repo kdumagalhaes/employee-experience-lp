@@ -4,6 +4,7 @@
     background-image: url("/assets/bg_top.svg");
     background-repeat: no-repeat;
     background-size: 1100px;
+    padding: var(--safe-area-padding);
     background-position: center;
     background-position-y: -60px;
     display: flex;
@@ -31,7 +32,7 @@
     margin-right: 1900px;
     top: 120px;
     border-radius: var(--rounded-border);
-    box-shadow: -7px 7px 0px -1px rgba(0,87,141,0.58);
+    box-shadow: -7px 7px 0px -1px rgba(0, 87, 141, 0.58);
 }
 
 .logo__h1 {
@@ -123,7 +124,6 @@
     margin-left: 30px;
     border-radius: var(--rounded-border);
     z-index: 1;
-
 
     h2 {
         text-transform: uppercase;
@@ -386,13 +386,29 @@
     color: var(--color1);
 }
 
+.articles__bg {
+    width: 2500px;
+    height: 350px;
+    background-color: var(--color5);
+    position: absolute;
+    z-index: 0;
+    margin-left: 120px;
+}
+
 .articles {
+    padding-top: 30px;
     width: 100%;
     max-width: 1100px;
     margin: 30px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+        color: #fff;
+    }
 }
 
 .articles__links {
