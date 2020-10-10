@@ -1,15 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="376" height="243.222" viewBox="0 0 376 243.222">
-  <g id="Grupo_466" data-name="Grupo 466" transform="translate(-809 -1470.703)">
-    <text id="_-_Forbes" data-name="- Forbes" transform="translate(997 1709.925)" fill="#342039" font-size="20" font-family="Lato-Italic, Lato" font-style="italic"><tspan x="-33.38" y="0">- Forbes</tspan></text>
-    <text id="Empresas_em_listas_das_melhores_para_se_trabalhar_cresceram_em_média_8_pontos_percentuais_a_mais_que_as_demais_na_bolsa_de_valores_entre_1998_e_2005." data-name="Empresas em listas das melhores para
-se trabalhar cresceram em média 8 pontos 
-percentuais a mais que as demais na bolsa
-de valores entre 1998 e 2005." transform="translate(997 1603.556)" fill="#342039" font-size="20" font-family="Lato-Regular, Lato"><tspan x="-164.255" y="0">Empresas em listas das melhores para</tspan><tspan x="-187.22" y="23">se trabalhar cresceram em média 8 pontos </tspan><tspan x="-183.51" y="46">percentuais a mais que as demais na bolsa</tspan><tspan x="-131.665" y="69">de valores entre 1998 e 2005.</tspan></text>
-    <text id="LUCRATIVIDADE" transform="translate(997 1574.853)" fill="#342039" font-size="20" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-78.26" y="0">LUCRATIVIDADE</tspan></text>
-    <g id="Grupo_376" data-name="Grupo 376" transform="translate(947 1470.703)">
-      <path id="Caminho_298" data-name="Caminho 298" d="M13.316,157.275V141.206c0-4.425,6.754-4.425,6.754,0v16.069H29.85V126.069c0-4.425,6.754-4.425,6.754,0v31.207h9.548V139.809c0-4.425,6.754-4.425,6.754,0v17.466h9.781V130.261c0-4.425,6.754-4.425,6.754,0v27.015h9.781V137.014c0-4.425,6.754-4.425,6.754,0v20.261H96.223c4.425,0,4.425,6.754,0,6.754H3.069c-4.425,0-4.425-6.754,0-6.754Z" transform="translate(0.25 -94.157)" fill="#00758d" fill-rule="evenodd"/>
-      <path id="Caminho_299" data-name="Caminho 299" d="M114.473,12.091,90.02,31.187a3.493,3.493,0,0,1-4.192,0L67.9,16.981,50.663,33.516c-3.26,3.26-7.918-1.63-4.891-4.891L65.335,9.995a3.5,3.5,0,0,1,4.425-.233L87.924,24.2,109.35,7.433,99.1,6.734c-4.425-.233-3.959-6.987.466-6.754,6.288.466,12.343.932,18.4,1.4,2.562.233,3.959.7,3.726,3.726l-1.164,17.466c-.466,4.425-7.219,3.959-6.754-.466Z" transform="translate(-34.302 0.025)" fill="#00758d" fill-rule="evenodd"/>
-    </g>
-    <line id="Linha_5" data-name="Linha 5" x2="138.449" transform="translate(927.5 1685.704)" fill="none" stroke="#41bac1" stroke-width="0.5"/>
-  </g>
+<svg id="Grupo_376" data-name="Grupo 376" xmlns="http://www.w3.org/2000/svg" width="99.792" height="69.872" viewBox="0 0 99.792 69.872">
+  <path id="Caminho_298" data-name="Caminho 298" d="M13.316,157.275V141.206c0-4.425,6.754-4.425,6.754,0v16.069H29.85V126.069c0-4.425,6.754-4.425,6.754,0v31.207h9.548V139.809c0-4.425,6.754-4.425,6.754,0v17.466h9.781V130.261c0-4.425,6.754-4.425,6.754,0v27.015h9.781V137.014c0-4.425,6.754-4.425,6.754,0v20.261H96.223c4.425,0,4.425,6.754,0,6.754H3.069c-4.425,0-4.425-6.754,0-6.754Z" transform="translate(0.25 -94.157)" fill="#00758d" fill-rule="evenodd"/>
+  <path id="Caminho_299" data-name="Caminho 299" d="M114.473,12.091,90.02,31.187a3.493,3.493,0,0,1-4.192,0L67.9,16.981,50.663,33.516c-3.26,3.26-7.918-1.63-4.891-4.891L65.335,9.995a3.5,3.5,0,0,1,4.425-.233L87.924,24.2,109.35,7.433,99.1,6.734c-4.425-.233-3.959-6.987.466-6.754,6.288.466,12.343.932,18.4,1.4,2.562.233,3.959.7,3.726,3.726l-1.164,17.466c-.466,4.425-7.219,3.959-6.754-.466Z" transform="translate(-34.302 0.025)" fill="#00758d" fill-rule="evenodd"/>
 </svg>

@@ -86,7 +86,7 @@
   background-repeat: no-repeat;
   background-size: 1300px;
   background-position-y: center;
-  background-position-x: -50px;
+  background-position-x: -30px;
 }
 
 .about__content h2 {
@@ -204,5 +204,52 @@
 
 .about__form--code {
   width: 100%;
+}
+
+.indicators {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  text-align: center;
+}
+
+.indicators hr {
+  width: 100%;
+  max-width: 100px;
+  margin: 10px auto;
+  color: var(--color3);
+  background-color: var(--color3);
+}
+
+.indicators__productivity,
+.indicators__lucrativity,
+.indicators__turnover {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+}
+
+.indicators__productivity img,
+.indicators__lucrativity img,
+.indicators__turnover img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.indicators__productivity h3,
+.indicators__lucrativity h3,
+.indicators__turnover h3 {
+  color: var(--color6);
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=main.css.map */
