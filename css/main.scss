@@ -19,11 +19,26 @@
     justify-content: center;
     align-content: center;
     width: 100%;
-    background-image: url("/assets/top_bg_logo.svg");
-    background-repeat: no-repeat;
-    background-size: 1050px;
-    background-position: left;
-    background-position-x: -60px;
+    // background-image: url("/assets/top_bg_logo.svg");
+    // background-repeat: no-repeat;
+    // background-size: 1050px;
+    // background-position: left;
+    // background-position-x: -60px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo__bg {
+    height: 300px;
+    width: 100%;
+    max-width: 1500px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 0;
+    margin-right: 750px;
+    top: 80px;
+    border-radius: var(--rounded-border);
+    box-shadow: -7px 7px 0px -1px rgba(0,87,141,0.58);
 }
 
 .logo__h1 {
