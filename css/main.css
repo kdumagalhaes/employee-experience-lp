@@ -93,16 +93,21 @@
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: var(--safe-area-padding);
 }
 
 .about__bg {
   height: 80px;
   width: 2500px;
   background-color: var(--color3);
-  border-radius: 50px;
+  border-radius: var(--rounded-border);
   position: absolute;
   z-index: 0;
   top: 120px;
+  margin-right: 1300px;
 }
 
 .about__content {
@@ -190,14 +195,6 @@
   margin: 20px 0 0 25px;
 }
 
-.about__form div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 .about__form button {
   background-color: var(--color2);
   border: none;
@@ -209,11 +206,6 @@
   padding: 0 30px;
   height: 40px;
   margin-top: auto;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
   margin-right: 100px;
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -223,15 +215,24 @@
   background-color: var(--color6);
 }
 
+.about__form--fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .about__form--code {
   width: 100%;
 }
 
 .indicators {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1140px;
+  padding: var(--safe-area-padding);
   height: auto;
-  margin: 40px auto;
+  margin: 80px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,16 +275,22 @@
   margin-bottom: 5px;
 }
 
-.bg__wrapper--agenda {
-  background-image: url("/assets/bg_agenda.svg");
-  background-repeat: no-repeat;
-  background-position-x: -529px;
+.agenda__bg {
+  width: 2500px;
+  height: 1440px;
+  background-color: var(--color5);
+  margin-right: 1300px;
+  position: absolute;
+  z-index: 0;
 }
 
 .agenda {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
+  padding-top: 50px;
+  z-index: 1;
+  position: relative;
 }
 
 .agenda__main-speaker {
@@ -383,6 +390,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 5px;
+  z-index: 1;
+  position: relative;
 }
 
 .speakers__card {
@@ -425,8 +434,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  max-width: 1100px;
-  margin: 30px auto;
+  max-width: 1140px;
+  padding: var(--safe-area-padding);
+  margin: 90px auto;
 }
 
 .companies__about {

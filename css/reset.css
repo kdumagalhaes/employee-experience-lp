@@ -6,6 +6,7 @@
   --color5: #f2f0f0;
   --color6: #342039;
   --rounded-border: 10px;
+  --safe-area-padding: 0 20px 0 20px;
 }
 
 * {
@@ -22,6 +23,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 1100px;
+  overflow-x: hidden;
 }
 
 body, button, input {
