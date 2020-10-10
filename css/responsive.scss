@@ -76,4 +76,15 @@
     .about__form--fieldset {
         flex-direction: column;
     }
+
+    .indicators {
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 40px 0;
+        div {
+            margin: 30px 0;
+        }
+    }
 }
