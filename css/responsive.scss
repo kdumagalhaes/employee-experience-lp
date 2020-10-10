@@ -3,8 +3,8 @@
     .top {
         background-image: url('/assets/bg_top_mb.svg');
         background-repeat: no-repeat;
-        background-size: 350px;
-        height: 450px;
+        background-size: 360px;
+        height: 470px;
     }
 
     .logo__bg {
@@ -41,11 +41,39 @@
         }
     }
 
+    .about__bg {
+        display: none;
+    }
+
     .about {
         flex-direction: column-reverse;
+        padding: 0 10px 0 10px;
     }
 
     .about__form {
-        margin:0;
+        margin: 0 0 30px 0;
+        width: 100%;
+        h2 {
+            text-align: left;
+            max-width: 250px;
+        }
+
+        label {
+            display: none;
+        }
+
+        button {
+            margin-top: 30px;
+            max-width: 150px;
+        }
+
+        input {
+            width: 100%;
+            margin: 5px auto;
+        }
+    }
+
+    .about__form--fieldset {
+        flex-direction: column;
     }
 }
