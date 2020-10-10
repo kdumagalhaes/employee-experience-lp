@@ -23,6 +23,9 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 1100px;
+}
+
+body, html {
   overflow-x: hidden;
 }
 
