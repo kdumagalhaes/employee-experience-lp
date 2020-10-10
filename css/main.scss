@@ -210,9 +210,6 @@
     justify-content: center;
 }
 
-.agenda__main-speaker {
-}
-
 .agenda__card--big {
     display: flex;
     width: 100%;
@@ -239,7 +236,8 @@
     }
 }
 
-.agenda__card--content {
+.agenda__card--content,
+.speakers__card--content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -261,9 +259,48 @@
     }
 }
 
-.agenda__card--participacao {
+.agenda__card--participacao,
+.speakers__card--participacao {
 
     p {
         margin-bottom: 15px;
     }
+}
+
+.speakers {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.speakers__card {
+    background-color: var(--color1);
+    border-radius: var(--rounded-border);
+    width: 100%;
+    max-width: 550px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    color: #fff;
+    font-size: 0.9rem;
+
+    time {
+        font-size: 1.9rem;
+    }
+}
+
+.speakers__card--img {
+    margin-right: 15px;
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+
+    img {
+        width: 170px;
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
 }
