@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (max-width: 411px) {
   .top {
     background-image: url("/assets/bg_top_mb.svg");
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
   }
   .logo__h1 {
     padding: 0;
-    margin-top: 100px;
+    margin-top: 90px;
   }
   .logo__h1 a img {
     width: 300px;
@@ -47,8 +47,9 @@
     padding: 0 10px 0 10px;
   }
   .about__form {
-    margin: 0 0 30px 0;
+    margin: 0 auto 30px auto;
     width: 100%;
+    max-width: 360px;
   }
   .about__form h2 {
     text-align: left;
@@ -65,11 +66,18 @@
     width: 100%;
     margin: 5px auto;
   }
+  .about__content {
+    margin: 0 auto;
+  }
+  .about__content--text {
+    width: 100%;
+  }
   .about__form--fieldset {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0;
   }
   .indicators {
     -webkit-box-orient: vertical;
@@ -104,9 +112,6 @@
             flex-direction: column-reverse;
     height: auto;
   }
-  .articles__bg {
-    display: none;
-  }
   .speakers {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -129,6 +134,56 @@
   }
   .companies__about:last-child {
     margin-bottom: 0;
+  }
+  .articles__bg {
+    display: none;
+  }
+  .articles {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .articles h2 {
+    background-color: var(--color3);
+    height: 70px;
+  }
+  .articles__links a {
+    height: auto;
+  }
+  .articles__links--purple,
+  .articles__links--green,
+  .articles__links--blue {
+    background-color: var(--color5);
+  }
+  .social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .social__div {
+    max-width: 150px;
+    border-right: none;
+    border-bottom: 1px solid var(--color6);
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+  }
+  .social__div:nth-child(3) {
+    border-left: none;
+    border-bottom: none;
+  }
+  .social__div--logo {
+    width: 130px;
+  }
+  .social__div--icon {
+    width: 30px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

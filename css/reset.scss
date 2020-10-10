@@ -22,6 +22,10 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 1100px;
+
+    @media(max-width: 411px) {
+        background-size: 90%;
+    }
 }
 
 body,html {

@@ -25,6 +25,12 @@ body {
   background-size: 1100px;
 }
 
+@media (max-width: 411px) {
+  body {
+    background-size: 90%;
+  }
+}
+
 body, html {
   overflow-x: hidden;
 }
