@@ -1,4 +1,4 @@
-@media (max-width: 411px) {
+@media (max-width: 500px) {
   .top {
     background-image: url("/assets/bg_top_mb.svg");
     background-repeat: no-repeat;
@@ -87,6 +87,48 @@
   }
   .indicators div {
     margin: 30px 0;
+  }
+  .agenda__bg {
+    display: none;
+  }
+  .agenda__main-speaker {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .agenda__card--big {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: auto;
+  }
+  .articles__bg {
+    display: none;
+  }
+  .speakers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .speakers__card {
+    margin: 15px auto;
+  }
+  .companies {
+    margin: 40px auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 30px 0 30px;
+  }
+  .companies__about {
+    margin-bottom: 30px;
+  }
+  .companies__about:last-child {
+    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=responsive.css.map */

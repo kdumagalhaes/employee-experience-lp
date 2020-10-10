@@ -1,4 +1,4 @@
-@media (max-width: 411px) {
+@media (max-width: 500px) {
 
     .top {
         background-image: url('/assets/bg_top_mb.svg');
@@ -85,6 +85,45 @@
         margin: 0 0 40px 0;
         div {
             margin: 30px 0;
+        }
+    }
+
+    .agenda__bg {
+        display: none;
+    }
+
+    .agenda__main-speaker {
+        flex-direction: column;
+    }
+
+    .agenda__card--big {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .articles__bg {
+        display: none;
+    }
+
+    .speakers {
+        flex-direction: column;
+    }
+
+    .speakers__card {
+        margin: 15px auto;
+    }
+
+    .companies {
+        margin: 40px auto;
+        flex-direction: column;
+        padding: 0 30px 0 30px;
+    }
+
+    .companies__about {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
         }
     }
 }
