@@ -1,21 +1,3 @@
-@media (min-width: 1280px) and (max-width: 1300px) {
-    .logo__bg {
-        width: 1000px;
-        margin-left: -200px;
-    }
-
-    .about__bg {
-        width: 1500px;
-        margin-left: -150px;
-    }
-}
-
-@media (min-width: 1001px) {
-    .agenda__bg-faixa {
-        display: block;
-    }
-}
-
 @media (max-width: 1000px) {
     .about {
         flex-direction: column;
@@ -294,13 +276,14 @@
         margin-right: 100px;
         margin-bottom: 20px;
         border-radius: var(--rounded-border);
+        position: static;
 
         h2 {
             height: 70px;
             font-size: 2rem;
             text-transform: uppercase;
             width: 100%;
-            max-width: 250px;
+            max-width: 245px;
             text-align: center;
             margin-left: 100px;
         }
@@ -311,14 +294,15 @@
     }
 
     .articles__links {
-        width: 120%;
+        background-color: transparent;
+        width: 135%;
         margin-left: 200px;
         a {
             height: auto;
 
             span {
                 display: block;
-                width: 250px;
+                width: 280px;
             }
         }
     }
@@ -354,5 +338,87 @@
 
     .social__div--icon {
         width: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .top {
+        background-image: url("/assets/bg_top_mb.svg");
+        background-repeat: no-repeat;
+        background-size: 290px;
+        height: 370px;
+    }
+
+    .logo__bg {
+        height: 120px;
+        top: 85px;
+        width: 330px;
+        margin-right: 40px;
+        margin-left: -35px;
+    }
+
+    .logo__h1 {
+        padding: 0;
+        margin-top: 75px;
+        a {
+            img {
+                width: 220px;
+            }
+        }
+    }
+
+    .top__content {
+        flex-direction: column;
+        margin-top: -90px;
+        p {
+            display: block;
+            text-align: center;
+            font-size: 1rem;
+            max-width: 150px;
+            margin-right: 0;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+    .about__content {
+        h2 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .about__content--text {
+        p {
+            max-width: 250px;
+        }
+    }
+
+    .about__form {
+        h2 {
+            font-size: 1.2rem;
+        }
+    }
+
+    .speakers-card--mb-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 130px;
+            padding: 10px;
+        }
+
+        figcaption {
+            text-align: center;
+        }
+    }
+
+    .speakers-card--mb {
+        time {
+            font-size: 1.5rem;
+        }
     }
 }
