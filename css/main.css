@@ -101,13 +101,13 @@
 }
 
 .about__bg {
-  height: 80px;
-  width: 2500px;
+  height: 74px;
+  width: 2450px;
   background-color: var(--color3);
-  border-radius: var(--rounded-border);
+  border-radius: 20px;
   position: absolute;
   z-index: 0;
-  top: 120px;
+  top: 190px;
   margin-right: 1300px;
 }
 
@@ -350,10 +350,10 @@
           align-items: center;
   padding-left: 30px;
   width: 530px;
-  height: 80px;
+  height: 74px;
   background-color: var(--color3);
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .agenda__card--big {
@@ -540,10 +540,10 @@
   padding-left: 30px;
   margin-left: 30px;
   width: 270px;
-  height: 80px;
+  height: 74px;
   background-color: var(--color3);
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
   position: relative;
   z-index: 1;
 }
