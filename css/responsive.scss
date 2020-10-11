@@ -63,9 +63,9 @@
     .logo__bg {
         height: 150px;
         top: 105px;
-        width: 500px;
-        margin-right: 0;
-        margin-left: 80px;
+        width: 400px;
+        margin-right: 40px;
+        margin-left: -35px;
     }
 
     .logo__h1 {
@@ -150,13 +150,13 @@
         padding: 0;
         justify-content: center;
         align-items: center;
-        margin: 0 0 40px 0;
-        div {
-            margin: 30px 0;
-        }
+        margin: 30px 0;
     }
 
-    .indicators {
+    .indicators__productivity,
+    .indicators__lucrativity,
+    .indicators__turnover {
+        height: auto;
         margin-bottom: 40px;
     }
 
@@ -186,7 +186,8 @@
         background-color: var(--color3);
         height: 80px;
         width: 600px;
-        margin-left: -180px;
+        margin-left: -135px;
+        margin-right: 130px;
         border-radius: var(--rounded-border);
         position: absolute;
         z-index: 1;
@@ -200,6 +201,7 @@
             font-size: 2rem;
             text-align: right;
             padding: 20px;
+            margin-right: 50px;
         }
     }
 
