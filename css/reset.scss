@@ -1,15 +1,16 @@
 :root {
-    --color1: #00578D;
+    --color1: #00578d;
     --color2: #572180;
-    --color3: #41BAC1;
-    --color4: #00758D;
+    --color3: #41bac1;
+    --color4: #00758d;
     --color5: #f2f0f0;
     --color6: #342039;
+    --color7: #854694;
     --rounded-border: 10px;
     --safe-area-padding: 0 20px 0 20px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,23 +19,26 @@
 }
 
 body {
-    background-image: url('/assets/footer-strip-bg.svg');
+    background-image: url("/assets/footer-strip-bg.svg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 1100px;
 
-    @media(max-width: 411px) {
+    @media (max-width: 411px) {
         background-size: 90%;
     }
 }
 
-html, body {
-	position:relative;
-	overflow-x:hidden;
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
 }
 
-body, button, input {
-    font-family: 'Lato', sans-serif;
+body,
+button,
+input {
+    font-family: "Lato", sans-serif;
 }
 
 button {
