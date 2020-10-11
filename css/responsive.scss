@@ -243,7 +243,7 @@
         justify-content: center;
 
         img {
-            width: 170px;
+            width: 100%;
             padding: 10px;
         }
 
@@ -401,24 +401,65 @@
         }
     }
 
-    .speakers-card--mb-img {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+    .agenda--mb__title--bg {
+        background-color: var(--color3);
+        height: 60px;
+        width: 600px;
+        margin-left: -135px;
+        margin-right: 190px;
+        border-radius: var(--rounded-border);
+        position: absolute;
+        z-index: 1;
+        top: 130px;
 
-        img {
-            width: 130px;
-            padding: 10px;
-        }
-
-        figcaption {
-            text-align: center;
+        h2 {
+            text-transform: uppercase;
+            color: #fff;
+            font-style: italic;
+            font-weight: 900;
+            font-size: 1.5rem;
+            text-align: right;
+            padding: 15px;
+            margin-right: 45px;
         }
     }
 
     .speakers-card--mb {
         time {
             font-size: 1.5rem;
+        }
+    }
+
+    .articles--title-bg {
+        width: 400px;
+        height: 120px;
+        margin-right: 130px;
+        margin-bottom: 20px;
+        border-radius: var(--rounded-border);
+        position: static;
+
+        h2 {
+            height: 70px;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            width: 100%;
+            max-width: 245px;
+            text-align: center;
+            margin-left: 100px;
+        }
+    }
+
+    .articles__links {
+        background-color: transparent;
+        width: 145%;
+        margin-left: 200px;
+        a {
+            height: auto;
+
+            span {
+                display: block;
+                width: 240px;
+            }
         }
     }
 }
