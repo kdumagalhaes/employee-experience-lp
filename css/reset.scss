@@ -28,8 +28,9 @@ body {
     }
 }
 
-body,html {
-    overflow-x:hidden;
+html, body {
+	position:relative;
+	overflow-x:hidden;
 }
 
 body, button, input {
