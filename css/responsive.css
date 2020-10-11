@@ -9,7 +9,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .about {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -45,9 +45,14 @@
   .about__form--fieldset button {
     width: 100%;
   }
+  .indicators__productivity,
+  .indicators__lucrativity,
+  .indicators__turnover {
+    max-width: 200px;
+  }
 }
 
-@media (max-width: 411px) {
+@media (max-width: 500px) {
   .top {
     background-image: url("/assets/bg_top_mb.svg");
     background-repeat: no-repeat;
@@ -148,6 +153,9 @@
   }
   .indicators div {
     margin: 30px 0;
+  }
+  .indicators {
+    margin-bottom: 40px;
   }
   .agenda,
   .speakers {
