@@ -276,6 +276,10 @@
   margin-bottom: 5px;
 }
 
+.agenda--mb {
+  display: none;
+}
+
 .agenda__bg {
   width: 2500px;
   height: 1440px;

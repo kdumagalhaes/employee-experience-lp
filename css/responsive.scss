@@ -23,7 +23,7 @@
         top: 105px;
         width: 500px;
         margin-right: 0;
-        margin-left: 90px;
+        margin-left: 80px;
     }
 
     .logo__h1 {
@@ -109,25 +109,105 @@
         }
     }
 
-    .agenda__bg {
+    .agenda,
+    .speakers {
         display: none;
     }
 
-    .agenda__main-speaker {
+    .agenda--mb {
+        background-color: var(--color5);
+        border-radius: var(--rounded-border);
+        padding: 40px 10px 10px 10px;
+        margin: 0 10px;
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 0;
     }
 
-    .agenda__card--big {
-        flex-direction: column-reverse;
-        height: auto;
+    .agenda--mb__logo {
+        width: 50%;
+        margin-bottom: 120px;
     }
 
-    .speakers {
+    .agenda--mb__title--bg {
+        background-color: var(--color3);
+        height: 80px;
+        width: 600px;
+        margin-left: -180px;
+        border-radius: var(--rounded-border);
+        position: absolute;
+        z-index: 1;
+        top: 140px;
+
+        h2 {
+            text-transform: uppercase;
+            color:#fff;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 2rem;
+            text-align: right;
+            padding: 20px;
+        }
+    }
+
+    .speakers-card--mb {
+        background-color: var(--color1);
+        padding: 10px;
+        border-radius: var(--rounded-border);
+        color: #fff;
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        time,
+        h2,
+        h3,
+        hr {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        time {
+            font-size: 2.3rem;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-weight: 400;
+        }
+
+        hr {
+            width: 100%;
+        }
+
+        .speakers-card--mb__nd-line {
+            width: 30%;
+        }
     }
 
-    .speakers__card {
-        margin: 15px auto;
+    .speakers-card--mb-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 170px;
+            padding: 10px;
+        }
+
+        figcaption {
+            text-align: center;
+        }
     }
 
     .companies {
