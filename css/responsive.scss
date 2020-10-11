@@ -10,12 +10,6 @@
     }
 }
 
-@media (min-width: 1001px) {
-    .agenda__bg-faixa {
-        display: block;
-    }
-}
-
 @media (max-width: 1000px) {
     .about {
         flex-direction: column;
@@ -49,6 +43,10 @@
         button {
             width: 100%;
         }
+    }
+
+    .agenda__bg-faixa {
+        display: none;
     }
 
     .indicators__productivity,
@@ -149,6 +147,10 @@
     .about__form--fieldset {
         flex-direction: column;
         margin: 0;
+    }
+
+    .agenda__bg-faixa {
+        display: none;
     }
 
     .indicators {
