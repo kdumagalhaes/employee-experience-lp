@@ -10,6 +10,12 @@
     }
 }
 
+@media (min-width: 1001px) {
+    .agenda__bg-faixa {
+        display: block;
+    }
+}
+
 @media (max-width: 1000px) {
     .about {
         flex-direction: column;
