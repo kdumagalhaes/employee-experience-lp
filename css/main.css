@@ -312,6 +312,7 @@
   z-index: -1;
   top: 233px;
   left: 0;
+  display: block;
 }
 
 .agenda__main-speaker {
