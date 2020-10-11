@@ -34,6 +34,9 @@
   .about__form--fieldset button {
     width: 100%;
   }
+  .agenda__bg-faixa {
+    display: none;
+  }
   .indicators__productivity,
   .indicators__lucrativity,
   .indicators__turnover {
@@ -269,6 +272,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
     margin: 0;
+  }
+  .agenda__bg-faixa {
+    display: none;
   }
   .indicators {
     -webkit-box-orient: vertical;
