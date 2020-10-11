@@ -277,26 +277,29 @@
     }
 
     .articles__bg {
-        width: 500px;
-        background-color: var(--color3);
-        height: 130px;
-        border-radius: var(--rounded-border);
-        margin-left: -130px;
+        display: none;
     }
 
-    .articles {
-        flex-direction: column;
+    .articles--title-bg {
+        width: 400px;
+        height: 120px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+        border-radius: var(--rounded-border);
 
         h2 {
             height: 70px;
-            font-size: 1.8rem;
+            font-size: 2rem;
             text-transform: uppercase;
             width: 100%;
             max-width: 250px;
             text-align: center;
-            margin-bottom: 50px;
-            margin-top: 50px;
+            margin-left: 100px;
         }
+    }
+
+    .articles {
+        flex-direction: column;
     }
 
     .articles__links {
