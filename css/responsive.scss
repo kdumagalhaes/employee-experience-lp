@@ -1,14 +1,50 @@
-// @media (min-width: 1280px) and (max-width: 1300px) {
-//     .logo__bg {
-//         width: 1000px;
-//         margin-left: -200px;
-//     }
+@media (min-width: 1280px) and (max-width: 1300px) {
+    .logo__bg {
+        width: 1000px;
+        margin-left: -200px;
+    }
 
-//     .about__bg {
-//         width: 1500px;
-//         margin-left: -150px;
-//     }
-// }
+    .about__bg {
+        width: 1500px;
+        margin-left: -150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__content--text {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .about__form {
+        width: 100%;
+        max-width: 600px;
+        margin: 30px 0;
+        
+        h2 {
+            text-align: left;
+        }
+
+        input {
+            margin: 10px 0;
+           max-width: 100%;
+        }
+    }
+
+    .about__form--fieldset {
+        flex-direction: column;
+        margin: 0;
+
+         button {
+             width: 100%;
+         }
+    }
+}
 
 @media (max-width: 411px) {
     .top {
@@ -90,7 +126,12 @@
     }
 
     .about__content--text {
-        width: 100%;
+        width: 200%;
+
+        p {
+            width: 100%;
+            max-width: 300px;
+        }
     }
 
     .about__form--fieldset {
@@ -153,6 +194,7 @@
     }
 
     .speakers-card--mb {
+        width: 100%;
         background-color: var(--color1);
         padding: 10px;
         border-radius: var(--rounded-border);
@@ -243,6 +285,7 @@
             max-width: 250px;
             text-align: center;
             margin-bottom: 50px;
+            margin-top: 50px;
         }
     }
 
