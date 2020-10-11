@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .about {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -38,6 +38,150 @@
   .indicators__lucrativity,
   .indicators__turnover {
     max-width: 200px;
+  }
+  .agenda,
+  .speakers {
+    display: none;
+  }
+  .agenda--mb {
+    background-color: var(--color5);
+    border-radius: var(--rounded-border);
+    padding: 40px 10px 10px 10px;
+    margin: 0 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  .agenda--mb__logo {
+    width: 50%;
+    margin-bottom: 120px;
+  }
+  .agenda--mb__title--bg {
+    background-color: var(--color3);
+    height: 80px;
+    width: 600px;
+    margin-left: -135px;
+    margin-right: 130px;
+    border-radius: var(--rounded-border);
+    position: absolute;
+    z-index: 1;
+    top: 140px;
+  }
+  .agenda--mb__title--bg h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: right;
+    padding: 20px;
+    margin-right: 50px;
+  }
+  .speakers-card--mb {
+    width: 100%;
+    background-color: var(--color1);
+    padding: 10px;
+    border-radius: var(--rounded-border);
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10px;
+  }
+  .speakers-card--mb time,
+  .speakers-card--mb h2,
+  .speakers-card--mb h3,
+  .speakers-card--mb hr {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .speakers-card--mb time {
+    font-size: 2.3rem;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .speakers-card--mb h2 {
+    font-size: 1.4rem;
+    font-weight: 900;
+  }
+  .speakers-card--mb h3 {
+    font-weight: 400;
+  }
+  .speakers-card--mb hr {
+    width: 100%;
+  }
+  .speakers-card--mb .speakers-card--mb__nd-line {
+    width: 30%;
+  }
+  .speakers-card--mb-img {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
+  .speakers-card--mb-img img {
+    width: 350%;
+    padding: 10px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .speakers-card--mb-img figcaption {
+    text-align: center;
+  }
+  .agenda--mb__title--bg {
+    background-color: var(--color3);
+    height: 80px;
+    width: 600px;
+    margin-left: -135px;
+    border-radius: var(--rounded-border);
+    position: absolute;
+    z-index: 1;
+    top: 225px;
+  }
+  .agenda--mb__title--bg h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: right;
+    padding: 20px;
+    margin-right: 50px;
+  }
+  .companies__about p {
+    max-width: 200px;
+  }
+  .articles {
+    margin-bottom: 90px;
+  }
+  .articles__bg {
+    height: 440px;
+  }
+  .articles__links a {
+    height: auto;
   }
 }
 

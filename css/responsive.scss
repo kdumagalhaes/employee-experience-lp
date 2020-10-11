@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .about {
         flex-direction: column;
         align-items: center;
@@ -37,6 +37,154 @@
     .indicators__lucrativity,
     .indicators__turnover {
         max-width: 200px;
+    }
+
+    .agenda,
+    .speakers {
+        display: none;
+    }
+
+    .agenda--mb {
+        background-color: var(--color5);
+        border-radius: var(--rounded-border);
+        padding: 40px 10px 10px 10px;
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .agenda--mb__logo {
+        width: 50%;
+        margin-bottom: 120px;
+    }
+
+    .agenda--mb__title--bg {
+        background-color: var(--color3);
+        height: 80px;
+        width: 600px;
+        margin-left: -135px;
+        margin-right: 130px;
+        border-radius: var(--rounded-border);
+        position: absolute;
+        z-index: 1;
+        top: 140px;
+
+        h2 {
+            text-transform: uppercase;
+            color: #fff;
+            font-style: italic;
+            font-weight: 900;
+            font-size: 2rem;
+            text-align: right;
+            padding: 20px;
+            margin-right: 50px;
+        }
+    }
+
+    .speakers-card--mb {
+        width: 100%;
+        background-color: var(--color1);
+        padding: 10px;
+        border-radius: var(--rounded-border);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        time,
+        h2,
+        h3,
+        hr {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        time {
+            font-size: 2.3rem;
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 900;
+        }
+
+        h3 {
+            font-weight: 400;
+        }
+
+        hr {
+            width: 100%;
+        }
+
+        .speakers-card--mb__nd-line {
+            width: 30%;
+        }
+    }
+
+    .speakers-card--mb-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+
+        img {
+            width: 350%;
+            padding: 10px;
+            max-width: fit-content;
+        }
+
+        figcaption {
+            text-align: center;
+        }
+    }
+
+    .agenda--mb__title--bg {
+        background-color: var(--color3);
+        height: 80px;
+        width: 600px;
+        margin-left: -135px;
+        border-radius: var(--rounded-border);
+        position: absolute;
+        z-index: 1;
+        top: 225px;
+
+        h2 {
+            text-transform: uppercase;
+            color: #fff;
+            font-style: italic;
+            font-weight: 900;
+            font-size: 2rem;
+            text-align: right;
+            padding: 20px;
+            margin-right: 50px;
+        }
+    }
+
+    .companies__about {
+
+        p {
+            max-width: 200px;
+        }
+    }
+
+    .articles {
+        margin-bottom: 90px;
+    }
+
+    .articles__bg {
+        height: 440px;
+    }
+
+    .articles__links {
+        a {
+            height: auto;
+        }
     }
 }
 
