@@ -145,7 +145,7 @@
     margin: 0;
   }
   .speakers-card--mb-img img {
-    width: 350%;
+    width: 100%;
     padding: 10px;
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
@@ -177,6 +177,18 @@
   .companies__about p {
     width: 90%;
     max-width: 450px;
+  }
+  .articles__links--purple:hover {
+    border-left: 8px solid var(--color2);
+    color: var(--color2);
+  }
+  .articles__links--green:hover {
+    border-left: 8px solid var(--color3);
+    color: var(--color3);
+  }
+  .articles__links--blue:hover {
+    border-left: 8px solid var(--color1);
+    color: var(--color1);
   }
   .articles {
     margin-bottom: 90px;
