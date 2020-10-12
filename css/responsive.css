@@ -175,7 +175,8 @@
     margin-right: 50px;
   }
   .companies__about p {
-    max-width: 200px;
+    width: 90%;
+    max-width: 450px;
   }
   .articles {
     margin-bottom: 90px;
@@ -414,6 +415,7 @@
     padding: 0 30px 0 30px;
   }
   .companies__about {
+    width: 100%;
     margin-bottom: 30px;
   }
   .companies__about:last-child {
