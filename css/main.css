@@ -165,27 +165,33 @@
   font-size: 0.1px;
 }
 
+.about__form select,
 .about__form input {
   border-radius: 50px;
   border: none;
   padding: 10px 15px;
   margin: 5px;
   width: 100%;
-  max-width: 320px;
+  background-color: white;
+  color: var(--color3);
 }
 
+.about__form select::-webkit-input-placeholder,
 .about__form input::-webkit-input-placeholder {
   color: var(--color3);
 }
 
+.about__form select:-ms-input-placeholder,
 .about__form input:-ms-input-placeholder {
   color: var(--color3);
 }
 
+.about__form select::-ms-input-placeholder,
 .about__form input::-ms-input-placeholder {
   color: var(--color3);
 }
 
+.about__form select::placeholder,
 .about__form input::placeholder {
   color: var(--color3);
 }
@@ -198,7 +204,7 @@
   margin: 20px 0 0 25px;
 }
 
-.about__form button {
+.about__form .hs-submit .hs_submit input[type="submit"] {
   background-color: var(--color7);
   border: none;
   border-radius: 50px;
@@ -214,7 +220,7 @@
   transition: background-color 0.3s;
 }
 
-.about__form button:hover {
+.about__form .hs-submit .hs_submit input[type="submit"]:hover {
   background-color: var(--color6);
 }
 

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/css/hsform.css">
     <title>Employee Experience</title>
 </head>
 
@@ -42,9 +43,21 @@
                     central.</p>
             </div>
         </div>
+        
         <form class="about__form">
             <h2>Inscreva-se para receber todos os conteúdos</h2>
-            <div class="about__form--fieldset">
+            <!--[if lte IE 8]>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+            <![endif]-->
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <script>
+            hbspt.forms.create({
+                portalId: "5441594",
+                formId: "1db06731-76b4-4826-8074-4b957f7edb60",
+            });
+            </script>
+            
+            <!-- <div class="about__form--fieldset">
                 <label for="name">Nome</label>
                 <input id="name" name="name" type="text" placeholder="Nome" autofocus>
                 <label for="last-name">Sobrenome</label>
@@ -76,7 +89,7 @@
                 </div>
 
                 <button>Enviar</button>
-            </div>
+            </div> -->
         </form>
     </div>
     <div class="indicators">
@@ -505,6 +518,7 @@
             </ul>
         </div>
     </footer>
+    
 </body>
 
 </html>

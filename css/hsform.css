@@ -1,0 +1,54 @@
+.hs-form fieldset {
+  max-width: 100% !important;
+}
+
+.hs-form-field .hs-input {
+  width: 100% !important;
+  max-width: 100%;
+}
+
+.hs-form-field .hs-input label {
+  display: none;
+}
+
+.hs-form-required {
+  display: none !important;
+}
+
+fieldset .form-columns2 {
+  max-width: 1000px !important;
+}
+
+.hs-submit input[type="submit"] {
+  background-color: var(--color7);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0 30px;
+  height: 40px;
+  margin-top: 10px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.hs-submit input[type="submit"]:hover {
+  background-color: var(--color6);
+}
+
+ul.hs-error-msgs > li > label {
+  font-size: inherit;
+  line-height: inherit;
+  display: block;
+  color: red;
+}
+
+@media screen and (max-width: 500px) {
+  select.hs-input {
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=hsform.css.map */
